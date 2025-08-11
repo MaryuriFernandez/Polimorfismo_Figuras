@@ -1,9 +1,5 @@
 package co.unicauca.figures.domain;
 
-/**
- *
- * @author ING-SIS
- */
 public class Circle implements Figure{
     private double radio;
 

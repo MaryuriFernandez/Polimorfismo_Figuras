@@ -3,10 +3,6 @@ package co.unicauca.figures.domain;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author maryuri
- */
 public class SquareTest {
     
     public SquareTest() {
@@ -19,7 +15,7 @@ public class SquareTest {
     public void testCalculatePerimeter() {
         System.out.println("calculatePerimeter");
         Square instance = new Square(4);
-        double expResult = 4*4; //resultado esperado
+        double expResult = 4*4;
         double result = instance.calculatePerimeter();
         assertEquals(expResult, result, 0.01);
     }
@@ -31,7 +27,7 @@ public class SquareTest {
     public void testCalculateArea() {
         System.out.println("calculateArea");
         Square instance = new Square(4);
-        double expResult = 4*4; //resultado esperado
+        double expResult = 4*4;
         double result = instance.calculateArea();
         assertEquals(expResult, result, 0.01);
     }

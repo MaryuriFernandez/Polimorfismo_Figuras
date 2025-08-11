@@ -2,10 +2,6 @@ package co.unicauca.figures.domain;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author ING-SIS
- */
 public class CircleTest {
     
     public CircleTest() {

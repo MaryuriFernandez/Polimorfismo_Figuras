@@ -1,9 +1,5 @@
 package co.unicauca.figures.domain;
 
-/**
- *
- * @author maryuri
- */
 public class Square implements Figure{
     private double side;
 
